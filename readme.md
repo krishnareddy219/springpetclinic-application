@@ -31,6 +31,7 @@ sudo ./aws/install
 
   Then login to another instance its extract the jar package
   ```
+  sudo apt install openjdk-17-jdk
   wget https://spring-petclnic-2023.s3.ap-south-1.amazonaws.com/target/spring-petclinic-3.0.0-SNAPSHOT.jar
   ``` 
   * Write service file for spring petclinic
