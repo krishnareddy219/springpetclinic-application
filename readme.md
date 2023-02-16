@@ -19,7 +19,7 @@ sudo ./aws/install
 ```
 * create AMI user and AWS configuration
   
-  ![preview](../images/spc1.png)
+  ![preview](images/spc1.png)
 * push the package jar file at S3 Bucket
   [referhere](https://qiita.com/alokrawat050/items/56820afdb6968deec6a2)
   ```
@@ -27,7 +27,7 @@ sudo ./aws/install
    aws s3 cp /home/ubuntu/spring-petclinic s3://spring-petclnic-2023 --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers --recursive 
 
   ```
-  ![preview](../images/spc2.png)
+  ![preview](images/spc2.png)
 
   Then login to another instance its extract the jar package
   ```
