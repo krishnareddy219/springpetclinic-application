@@ -12,7 +12,7 @@ cd spring-petclinic
 * Install aws cli  
   [Referhere](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 ```
-sudo apt install unzip
+sudo apt install unzip -y
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
