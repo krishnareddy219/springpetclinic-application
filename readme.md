@@ -36,7 +36,7 @@ sudo ./aws/install
   ``` 
   * Write service file for spring petclinic
   ```
-  cd /etc/sysyemd/system
+  cd /etc/systemd/system
   sudo vi spc.service
   ```
   ```yaml
